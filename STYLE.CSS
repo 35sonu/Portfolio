@@ -1,0 +1,256 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color: rgb(47, 6, 82);
+    color:white;
+     font-family: 'Bree Serif', serif;;
+     height:20vh;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 0px;
+    height:80px;
+    background-color: rgb(31, 7, 69);
+}
+.left{
+    font-size: 2.8rem;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: bolder;
+}
+
+
+nav ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    margin:0 23px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    border:12px solid transparent;
+    border-radius:20px;
+    
+}
+nav ul li a:hover{
+    
+    
+    background-color:rgb(142, 142, 241);
+    font-size: 0.91rem;
+}
+main hr{
+    border:0;
+    background: #9c97f1;
+    height:1.2px;
+    margin:40px 84px;
+    
+}
+/* // section // */
+.firstsection{
+   
+    display:flex;
+    justify-content:space-around;
+    margin:70px 0px;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    
+}
+.firstsection > div{
+    width:30%;
+   
+
+}
+.leftsection{
+    
+    font-size:2.9rem;
+   
+}
+.rightsection img{
+   width:110%;
+   margin:50px 0px;
+}
+.name{
+    color: rgb(120, 2, 231);
+}
+
+#element{
+    color: rgb(120, 2, 231);
+}
+
+/* second section */
+
+.secondsection
+{
+    margin: auto;
+    max-width: 80vw;
+   height: auto;
+   padding-bottom:60px
+}
+.thirdsection
+{
+    margin: auto;
+    max-width: 80vw;
+    padding-bottom:60px;
+}
+.secondsection h1{
+    font-family: 'Baloo 2', sans-serif;
+    font-size: 2.2rem;
+}
+ /* .secondsection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display:flex; */
+
+/* } */
+/* .secondsection .box .box-1{
+    height:200%;
+    width:33%;
+} */
+ /* .secondsection .vertical{
+    height:93px;
+    width:1px;
+    background-color: white;
+    margin:0 100px;
+} */
+.text-grey{
+    color:grey;
+}
+.box-img{
+    height:190px;
+    width:290px;
+     background-size:cover;
+  /*  position: relative; */
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    background-image: url('https://i.ytimg.com/vi/hRAR3N0RCPQ/maxresdefault.jpg');
+}
+.box1-img{
+    height:190px;
+    width:290px;
+     background-size:cover;
+  /*  position: relative; */
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    background-image: url('https://th.bing.com/th/id/OIP.XFyi5VJH_FeYe79NMU9MpgAAAA?pid=ImgDet&w=197&h=103.425&c=7&dpr=1.3');
+}
+.box2-img{
+    height:190px;
+    width:290px;
+     background-size:cover;
+  /*  position: relative; */
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    background-image: url('https://th.bing.com/th/id/OIP.5eu2Tk2TQgMFqKiSo1yiiQHaHa?pid=ImgDet&w=197.00000000000003&h=147.75&c=7&dpr=1.3');
+}
+.box3-img{
+    height:190px;
+    width:290px;
+     background-size:cover;
+  /*  position: relative; */
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    background-image: url('https://i.ytimg.com/vi/hRAR3N0RCPQ/maxresdefault.jpg');
+}
+.box{
+    display:flex;
+    justify-content: space-evenly;
+    /* height:500px;
+    width:300px; */
+    
+}
+.box-section{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.skill{
+    display:flex;
+    justify-content: center;
+}
+.Hobbies{
+    display:flex;
+    justify-content: center;
+    padding-bottom:4px;
+
+    
+} .hr1{
+    border:0;
+    background: #9c97f1;
+    height:1.2px;
+    margin:-350px 84px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* third section */
+
+.box4-img{
+    height:190px;
+    width:290px;
+     background-size:cover;
+  /*  position: relative; */
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    background-image: url('https://th.bing.com/th/id/OIP.NolW6Py94Eg6I0RQhKLFtwHaHa?pid=ImgDet&w=180&h=180&c=7&dpr=1.3');
+}
+.box5-img{
+    height:190px;
+    width:290px;
+     background-size:cover;
+  /*  position: relative; */
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    background-image: url('https://th.bing.com/th/id/R.c49e0563c1ec7a0135e79821139175a9?rik=J1%2ftps%2bySk9PAg&riu=http%3a%2f%2fimages1.fanpop.com%2fimages%2fphotos%2f1900000%2fGameboy-Vector-gameboy-1994922-1024-768.jpg&ehk=btRS69V63fYyonNaM%2fUrkUekwDkXOPkV7bqfLIPst3M%3d&risl=&pid=ImgRaw&r=0');
+}
+.box6-img{
+    height:190px;
+    width:290px;
+     background-size:cover;
+  /*  position: relative; */
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    background-image: url('https://th.bing.com/th/id/R.daf67379c3e86e0c9146e37e39e666e3?rik=rnDW0DE7nFqtDQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwp1809784.jpg&ehk=OR4B12uewRfJrgq%2f%2f65ucJsIiueCpi5%2flcdxmA0wz3s%3d&risl=&pid=ImgRaw&r=0');
+}
+.box7-img{
+    height:190px;
+    width:290px;
+     background-size:cover;
+  /*  position: relative; */
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    background-image: url('https://pbs.twimg.com/media/DEK7kmzXYAAe1z-.jpg');
+}
+
+
+/* footer */
+footer{
+    height:20px;
+    width:100%;
+    background-color:grey;
+}
+.footer-section{
+    display:flex;
+    justify-content: center;
+}
+
+/* 
+  know me  */
+
+ 
